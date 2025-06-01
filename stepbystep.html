@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Step by Step Guide</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      color: #333;
+      background: linear-gradient(135deg, #fbe4e8, #fddde6);
+    }
+
+    header {
+      background-color: rgba(255, 255, 255, 0.9);
+      padding: 40px 20px;
+      text-align: center;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    header h1 {
+      font-size: 2.8em;
+      margin: 0;
+      color: #d6336c;
+    }
+
+    nav {
+      margin-top: 20px;
+    }
+
+    nav a {
+      color: #c2185b;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #7b1e3a;
+    }
+
+    main {
+      max-width: 1200px;
+      margin: 50px auto;
+      padding: 20px;
+    }
+
+    .card-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background-color: rgba(255, 255, 255, 0.95);
+      border: 1px solid #ffc0cb;
+      border-radius: 12px;
+      padding: 20px;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 20px rgba(255, 192, 203, 0.3);
+    }
+
+    .card h2 {
+      font-size: 1.4em;
+      margin-bottom: 10px;
+      color: #d6336c;
+    }
+
+    .card p {
+      font-size: 0.95em;
+      margin-bottom: 10px;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2em;
+      }
+
+      nav a {
+        display: block;
+        margin: 10px 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Step by Step Guide</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="step.html">Step-by-Step Guide</a>
+      <a href="resources.html">Inspiration & Resources</a>
+    </nav>
+  </header>
+
+  <main>
+    <div class="card-grid">
+      <div class="card">
+        <h2>🎓 Complete SPM</h2>
+        <p>My journey begins with completing my secondary education.</p>
+      </div>
+      <div class="card">
+        <h2>🏫 Enroll in Diploma</h2>
+        <p>Next, I will enroll in a Diploma in Multimedia Design.</p>
+      </div>
+      <div class="card">
+        <h2>💼 Internship Experience</h2>
+        <p>Internships will give me real-world experience and industry exposure.</p>
+      </div>
+      <div class="card">
+        <h2>🎨 Build Portfolio</h2>
+        <p>I will compile my best projects into a digital portfolio.</p>
+      </div>
+      <div class="card">
+        <h2>🚀 Start Career</h2>
+        <p>Finally, I’ll apply for jobs or begin freelancing as a multimedia designer.</p>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
